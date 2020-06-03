@@ -1,0 +1,39 @@
+.nav
+    background-color: #272727
+    width: 100%
+    padding: 28px 0
+    &__logo
+        font-family: 'Playfair Display', serif
+        font-size: 36px
+        line-height: 48px
+        color: #FFFFFF
+    & a:hover
+        text-decoration: none
+        color: #fff
+    &__bar
+        line-height: 24px
+    &__list
+        list-style-type: none
+        margin: 0
+        padding: 0
+    &__item
+        font-family: Roboto
+        font-size: 16px
+        color: #fff
+        line-height: 24px
+        &:hover
+            color: #fff
+            text-decoration: none
+    &__profile-item
+        text-decoration: none
+@media screen and ( max-width: 993px )
+    .nav
+        display: flex
+        &__logo
+            margin-bottom: 10px
+        &__list
+            display: flex
+            order: 1
+    
+        
+    

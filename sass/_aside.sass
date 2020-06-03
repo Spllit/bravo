@@ -1,0 +1,55 @@
+.aside
+    padding-left: 0
+    padding-right: 0
+    margin-right: 30px
+    margin-top: 40px
+    &__list
+        list-style-type: none
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        color:  #000
+        font-size: 16px
+        line-height: 24px
+        border: 1px solid #D6D6D6
+        padding: 0    
+        margin: 0
+    &__item
+        
+        border-bottom: 1px solid #D6D6D6   
+    &__link
+        color:  #000
+        display: block
+        padding-top: 24px 
+        padding-bottom: 22px
+        padding-left: 20px
+        padding-right: 20px
+        transition: 0.3s ease
+        fill: #000
+        &:hover
+            text-decoration: none
+            background-color: #272727
+            color:  #fff
+            fill: #fff
+        & svg 
+            margin-right: 23px
+@media screen and ( max-width: 992px )
+    .aside 
+        &__list
+        display: flex
+        width: 100%
+        flex-direction: column
+        &__item
+        display: flex     
+        justify-content: center
+        text-align: center
+@media screen and ( max-width: 425px )
+    .aside
+        &__link
+            text-align: left
+        
+            
+    
+    
+
+    
